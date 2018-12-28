@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/reg.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="left">
+                <div></div>
+                <h3>欢迎注册</h3>
+            </div>
+            <div class="right"> 
+                <span>已有账号?</span>
+                <a href="login.html">请登录></a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="bz">
+            <div class="dy">
+                <span>1</span>
+                <p class="active">验证手机号</p>
+            </div>
+            <span></span>
+            <div class="de">
+                <span>2</span>
+                <p>注册信息</p>
+            </div>
+            <span></span>
+            <div class="ds">
+                <span>3</span>
+                <p>注册成功</p>
+            </div>
+        </div>
+        <form action="" >
+            <div class="sj">
+                <label>
+                    <span>中国</span>
+                    <span>0086</span>
+                </label>
+                <input type="text" name="tel" id="tel" placeholder="请填写常用的手机号" required pattern="^1[3589]\d{9,}$">
+            </div>
+            <div class="yzm">
+               <input type="button" value="点击按钮进行验证">
+            </div>
+            <input type="submit" value="下一步">
+        </form>
+    </main>
+
+    <div class="reg" style="display:none">
+        <form action="">
+            <div class="user">
+                <label for="user">用户名</label>
+                <input type="text" name="user" id="user" placeholder="您的账户名和登录名" required pattern="^[\u4e00-\u9fa5]{2,}$">
+                <span></span>
+            </div>
+            <div class="pwd">
+                <label for="pwd">设置密码</label>
+                <input type="password" name="pwd" id="pwd" placeholder="建议使用两种或两种以上字符组合" required pattern="^\w{6,}$">
+                <span></span>
+            </div>
+            <div class="pwd1">
+                <label for="pwd1">确认密码</label>
+                <input type="password" name="pwd1" id="pwd1" placeholder="请再次输入确认密码" required pattern="^\w{6,}$">
+                <span></span>
+            </div>
+            <div class="email">
+                <label>邮箱验证</label>
+                <input type="email" name="email" placeholder="请输入邮箱" required pattern="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">
+                <span></span>
+            </div>
+            <div class="email">
+                <label>邮箱验证码</label>
+                <input type="text" name="email1" placeholder="请输入邮箱验证码">
+                <button>获取验证码</button>
+            </div>
+            <input type="submit" value="立即注册">
+        </form>
+    </div>
+    <script src="./jquery/jquery-3.3.1.js"></script>
+    <script src="./js/reg.js"></script>
+    <script src="./jquery/jquery.cookie.js"></script>
+</body>
+</html>

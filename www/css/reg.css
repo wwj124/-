@@ -1,0 +1,182 @@
+body,html{
+    margin: 0;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid gainsboro;
+}
+section{
+    margin: 0 auto;
+    width: 1000px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+}
+header>section>div>div{
+    width: 160px;
+    height: 50px;
+    background-image: url(".././images/icon.png");
+    display: inline-block;
+}
+header>section>div{
+    width: 250px;
+    height: 50px;
+    display: flex;
+}
+h3{
+    display: inline-block;
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+}
+.right>a{
+    text-decoration: none;
+    color: red;
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+.bz{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    height: 55px;
+}
+.bz>div>span,.bz>span{
+    display: inline-block;
+    background-image: url(".././images/reg-icon.png");
+    background-repeat: no-repeat;
+    line-height: 24px;
+    text-align: center;
+
+}
+.bz>div{
+    width: 60px;
+    height: 55px;
+}
+.dy>span{
+    width: 24px;
+    height: 24px;
+    background-position: 0 -200px;
+    
+    color: white;
+}
+.de>span{
+    width: 24px;
+    height: 24px;
+    background-position: -45px -200px;
+    color: gainsboro;
+}
+.ds>span{
+    width: 24px;
+    height: 24px;
+    background-position: -45px -200px;
+    color: gainsboro;
+}
+.bz>span{
+    width: 124px;
+    height: 10px;
+    background-position: 0 -100px;
+}
+
+.active{
+    color: #33bb44;
+}
+/* 手机号码的样式 */
+.sj{
+    width: 100%;
+    height: 86px;
+    font-size: 0;
+    margin-top: 40px;
+}
+.sj>label{
+    width: 108px;
+    height: 50px;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid gainsboro;
+    text-align: center;
+    line-height: 52px;
+}
+.sj>input{
+    width: 290px;
+    height: 48px;
+    border: 1px solid gainsboro;
+    position: relative;
+    top: -3px;
+}
+/* 验证码样式 */
+.yzm{
+    width: 100%;
+    height: 54px;
+}
+.yzm>input{
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+/* 下一步样式 */
+form>input{
+    width: 400px;
+    height: 54px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 40px;
+}
+
+main>form{
+    text-align: center;
+}
+
+
+/* 注册信息的样式 */
+.reg{
+    width: 1000px;
+    margin: 0 auto;
+}
+.reg>form{
+    width: 400px;
+    margin: 0 auto;
+}
+.user{
+    width: 100%;
+}
+.reg>form>div{
+    display: flex;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+}
+.reg>form>div>label{
+    display: inline-block;
+    width: 107px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+.reg>form>div>input{
+    width: 210px;
+    height: 46px;
+    border: none;
+    outline: none;
+}
+.reg>form>div>span{
+    display: inline-block;
+    width: 83px;
+    height: 50px;
+}
